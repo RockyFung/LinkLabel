@@ -15,6 +15,7 @@
 		5C4741951CE456EE0090ACCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C4741931CE456EE0090ACCA /* LaunchScreen.storyboard */; };
 		5C4741A01CE456EE0090ACCA /* LessonTTTAttributedLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C47419F1CE456EE0090ACCA /* LessonTTTAttributedLabelTests.m */; };
 		5C4741AB1CE456EE0090ACCA /* LessonTTTAttributedLabelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4741AA1CE456EE0090ACCA /* LessonTTTAttributedLabelUITests.m */; };
+		5C4741BB1CE456FC0090ACCA /* TTTAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4741BA1CE456FC0090ACCA /* TTTAttributedLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		5C4741A61CE456EE0090ACCA /* LessonTTTAttributedLabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LessonTTTAttributedLabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C4741AA1CE456EE0090ACCA /* LessonTTTAttributedLabelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LessonTTTAttributedLabelUITests.m; sourceTree = "<group>"; };
 		5C4741AC1CE456EE0090ACCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C4741B91CE456FC0090ACCA /* TTTAttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTAttributedLabel.h; sourceTree = "<group>"; };
+		5C4741BA1CE456FC0090ACCA /* TTTAttributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTAttributedLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		5C4741841CE456ED0090ACCA /* LessonTTTAttributedLabel */ = {
 			isa = PBXGroup;
 			children = (
+				5C4741B81CE456FC0090ACCA /* TTTAttributedLabel */,
 				5C4741881CE456ED0090ACCA /* AppDelegate.h */,
 				5C4741891CE456ED0090ACCA /* AppDelegate.m */,
 				5C47418B1CE456ED0090ACCA /* ViewController.h */,
@@ -138,6 +142,15 @@
 				5C4741AC1CE456EE0090ACCA /* Info.plist */,
 			);
 			path = LessonTTTAttributedLabelUITests;
+			sourceTree = "<group>";
+		};
+		5C4741B81CE456FC0090ACCA /* TTTAttributedLabel */ = {
+			isa = PBXGroup;
+			children = (
+				5C4741B91CE456FC0090ACCA /* TTTAttributedLabel.h */,
+				5C4741BA1CE456FC0090ACCA /* TTTAttributedLabel.m */,
+			);
+			path = TTTAttributedLabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +286,7 @@
 				5C47418D1CE456ED0090ACCA /* ViewController.m in Sources */,
 				5C47418A1CE456ED0090ACCA /* AppDelegate.m in Sources */,
 				5C4741871CE456ED0090ACCA /* main.m in Sources */,
+				5C4741BB1CE456FC0090ACCA /* TTTAttributedLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
